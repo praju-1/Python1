@@ -1,0 +1,139 @@
+1. variables -to store 
+rules 
+1. variables name should be start with alphabets a-z or A-B 
+2. variables names should not be a keywords
+3. variables name should not be start with any digit(0-9)
+4. variables except (_)
+5. variables names are case sensitive
+
+2. comments
+
+3. constants 
+pi - 3.14
+
+4. keywords
+specific syntax meaning : 
+for if else break continue pass def switch do while 
+
+
+
+5. data types
+6. data types methods
+7. functions
+8. statement
+9. class
+10. oops
+11. regular expression
+12. threading
+
+
+int - 10 12 
+float - 12.4 23.5
+string - "hello" ''
+
+operator  types 
+1. Arithmatic - + - * / // % **
+2. comparision/relational operator- > < >= <= == != - True False
+3. Logical operators - and or not
+4. Assignment operators - = += -= /= *=
+5. membership operator - in not in
+6. Identity operator - is is not
+7.  Bitwise operator -  >> <<
+
+l = [10, 20, 30, 40, 49, 20]
+
+i = len(l) - 1  # start from last index
+
+while i >= 0:
+    print(l[len(l) - 1 - i]) 
+    i -= 1
+
+Data Types : 
+int 
+float
+string
+boolean
+complex 
+list 
+set 
+tuple
+dictionary
+
+
+statements  :
+conditional statement 
+if : you have single condition only true part
+if else :  you have single condition both true part/false
+if elif else : if  you have Multiple condition 
+looping statement 
+for while do while
+
+
+functions initilization/declaration/defination
+functions execution
+functions calling
+
+1. functions with parameters
+2. functions without parameters
+3. functions with return statement
+4. functions with default parameters
+
+
+generator
+file handling : 
+Modes/flags :
+open("abc.txt", "r")
+
+"r" - if file available it will open in read mode else you will get an error
+"w" - if file available it will open in write mode else it will create new file
+"a" - if file available it will open in write mode else it will create new file
+"x" - if available it give you an error else it will create new file
+
+
+functions:
+open()
+read()
+write()
+close()
+
+
+packages/library/modules
+
+
+exception handling : 
+try 
+except
+finally
+
+
+oops : 
+
+class - object
+4 pillars :
+
+1. inheritance - base class - derived / parent class - child class
+    1. single inheritance
+    2. Multiple inheritance
+    3. multilevel inheritance
+    4. hierachical inheritance
+    5. hybrid inheritance
+
+2. encapsulation - data binding / secure
+3. abstraction - hide unneccary data 
+4. polymorphism - same function name but different meaning 
+
+
+threading
+1, single threading
+2. multithreading 
+
+thread
+process
+task
+
+start
+join
+
+
+regular expression : 
+find data / update
