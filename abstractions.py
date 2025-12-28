@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+"""this is abstration"""
+
 class Vehical(ABC):
     def __init__(self, brand, model,fuel_type):
         self.brand = brand
